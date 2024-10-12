@@ -1,0 +1,38 @@
+[
+  {
+    "type": "text",
+    "metaChatId": "wamid.HBgNNTIxNTU3MjA5NzM5MxUCABIYIDgwQjE0RjQ3QUM1OTQ3NUQ2NEM3RDYwMUI4MUEyRjY4AA==",
+    "msgContext": {
+      "type": "text",
+      "text": {
+        "preview_url": true,
+        "body": "Hola"
+      }
+    },
+    "reaction": "",
+    "timestamp": 1725837733,
+    "senderName": "Misael",
+    "senderMobile": "5215572097393",
+    "status": "",
+    "star": false,
+    "route": "INCOMING"
+  },
+  {
+    "type": "text",
+    "metaChatId": "wamid.HBgNNTIxNTU3MjA5NzM5MxUCABIYIEIxRjBFMDFBMjcwMkY0M0FCNTY1MjJDMzRGREZGNkNCAA==",
+    "msgContext": {
+      "type": "text",
+      "text": {
+        "preview_url": true,
+        "body": "Miller"
+      }
+    },
+    "reaction": "",
+    "timestamp": 1725837743,
+    "senderName": "Misael",
+    "senderMobile": "5215572097393",
+    "status": "",
+    "star": false,
+    "route": "INCOMING"
+  }
+]

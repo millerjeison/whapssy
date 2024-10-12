@@ -1,0 +1,280 @@
+[
+  {
+    "id": "1724587674716",
+    "position": {
+      "x": 89,
+      "y": 209
+    },
+    "nodeType": "TEXT",
+    "data": {
+      "msgContent": {
+        "type": "text",
+        "text": {
+          "preview_url": true,
+          "body": "{{OTHER_MSG}}"
+        }
+      },
+      "keyword": [
+        "{{OTHER_MSG}}"
+      ]
+    },
+    "type": "TEXT",
+    "width": 268,
+    "height": 252,
+    "selected": false,
+    "positionAbsolute": {
+      "x": 89,
+      "y": 209
+    },
+    "dragging": false
+  },
+  {
+    "id": "1724587687147",
+    "position": {
+      "x": 498,
+      "y": 183
+    },
+    "nodeType": "BUTTON",
+    "data": {
+      "msgContent": {
+        "type": "interactive",
+        "interactive": {
+          "type": "button",
+          "body": {
+            "text": "hey thanks for your message please choose below"
+          },
+          "action": {
+            "buttons": [
+              {
+                "type": "reply",
+                "reply": {
+                  "id": "1724587706701",
+                  "title": "Talk to ai"
+                }
+              },
+              {
+                "type": "reply",
+                "reply": {
+                  "id": "1724587710977",
+                  "title": "Talk to agent"
+                }
+              },
+              {
+                "type": "reply",
+                "reply": {
+                  "id": "1724587718598",
+                  "title": "Automate"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "keyword": [
+        "Talk to ai",
+        "Talk to agent",
+        "Automate"
+      ]
+    },
+    "type": "BUTTON",
+    "width": 268,
+    "height": 332,
+    "selected": false,
+    "positionAbsolute": {
+      "x": 498,
+      "y": 183
+    },
+    "dragging": false
+  },
+  {
+    "id": "1724587737263",
+    "position": {
+      "x": 919,
+      "y": 84
+    },
+    "nodeType": "AI_BOT",
+    "data": {
+      "msgContent": {
+        "assignAi": true,
+        "trainText": "you are a codeyon it service bot your web is codeyon.com",
+        "allowTask": true,
+        "taskArr": [
+          {
+            "id": "dOTfw",
+            "text": "when askes to transger chat to agent"
+          },
+          {
+            "id": "zj51w",
+            "text": "when ask to send product details"
+          }
+        ],
+        "aiMode": "gpt-4o",
+        "history": 3,
+        "keys": "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"
+      },
+      "keyword": []
+    },
+    "type": "AI_BOT",
+    "width": 308,
+    "height": 581,
+    "selected": false,
+    "positionAbsolute": {
+      "x": 919,
+      "y": 84
+    },
+    "dragging": false
+  },
+  {
+    "id": "1724587865307",
+    "position": {
+      "x": 1410.1192227675967,
+      "y": 197.29650029791836
+    },
+    "nodeType": "ASSIGN_AGENT",
+    "data": {
+      "msgContent": {
+        "agentEmail": "john@agent.com",
+        "agentObj": {
+          "id": 2,
+          "owner_uid": "lWvj6K0xI0FlSKJoyV7ak9DN0mzvKJK8",
+          "uid": "n9xrxIvwIajEo2JO2poQ0b3UyUnhUF3g",
+          "title": "holiday ",
+          "description": "tell all customer that its holiday",
+          "agent_comments": "this was done",
+          "status": "COMPLETED",
+          "createdAt": "2024-04-09T01:21:55.000Z",
+          "agent_email": "john@agent.com"
+        }
+      },
+      "keyword": []
+    },
+    "type": "ASSIGN_AGENT",
+    "width": 268,
+    "height": 143,
+    "selected": false,
+    "positionAbsolute": {
+      "x": 1410.1192227675967,
+      "y": 197.29650029791836
+    },
+    "dragging": false
+  },
+  {
+    "id": "1724587893089",
+    "position": {
+      "x": 1406.6745920608018,
+      "y": 374.6301529381383
+    },
+    "nodeType": "MAKE_REQUEST",
+    "data": {
+      "msgContent": {
+        "type": "GET",
+        "url": "https://fakestoreapi.com/products/1",
+        "headers": [],
+        "body": [],
+        "response": {
+          "id": 1,
+          "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+          "price": 109.95,
+          "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+          "category": "men's clothing",
+          "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+          "rating": {
+            "rate": 3.9,
+            "count": 120
+          }
+        }
+      },
+      "keyword": []
+    },
+    "type": "MAKE_REQUEST",
+    "width": 318,
+    "height": 700,
+    "selected": false,
+    "positionAbsolute": {
+      "x": 1406.6745920608018,
+      "y": 374.6301529381383
+    },
+    "dragging": false
+  },
+  {
+    "id": "1724587962960",
+    "position": {
+      "x": 1889.1663818621564,
+      "y": 454.72592288407634
+    },
+    "nodeType": "TEXT",
+    "data": {
+      "msgContent": {
+        "type": "text",
+        "text": {
+          "preview_url": true,
+          "body": "This is your product details:\n\nYour product name is: {{{title}}}\nYour product price is: {{{price}}}\nProduct description is: {{{description}}}"
+        }
+      },
+      "keyword": []
+    },
+    "type": "TEXT",
+    "width": 268,
+    "height": 222,
+    "selected": false,
+    "positionAbsolute": {
+      "x": 1889.1663818621564,
+      "y": 454.72592288407634
+    },
+    "dragging": false
+  },
+  {
+    "id": "1724588546407",
+    "position": {
+      "x": 1763.1937669323652,
+      "y": 120.534227392616
+    },
+    "nodeType": "TEXT",
+    "data": {
+      "msgContent": {
+        "type": "text",
+        "text": {
+          "preview_url": true,
+          "body": "You chat has been transferred to the agent. Please wait an available agent will reply soon."
+        }
+      },
+      "keyword": []
+    },
+    "type": "TEXT",
+    "width": 268,
+    "height": 204,
+    "selected": false,
+    "dragging": false,
+    "positionAbsolute": {
+      "x": 1763.1937669323652,
+      "y": 120.534227392616
+    }
+  },
+  {
+    "id": "1724589032139",
+    "position": {
+      "x": 1877.8986336931039,
+      "y": 810.0290910627946
+    },
+    "nodeType": "TEXT",
+    "data": {
+      "msgContent": {
+        "type": "text",
+        "text": {
+          "preview_url": true,
+          "body": "we are fetching it please wait"
+        }
+      },
+      "keyword": []
+    },
+    "type": "TEXT",
+    "width": 268,
+    "height": 204,
+    "selected": true,
+    "positionAbsolute": {
+      "x": 1877.8986336931039,
+      "y": 810.0290910627946
+    },
+    "dragging": false
+  }
+]

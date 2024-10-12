@@ -1,0 +1,3 @@
+in vsCode 
+
+ crt+shift+f or searh -> in searh "https://www.you_domain.com" replace for you domain

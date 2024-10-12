@@ -1,0 +1,154 @@
+[
+  {
+    "id": "1725760028715",
+    "position": {
+      "x": 546.7577637636682,
+      "y": -577.9264847779939
+    },
+    "nodeType": "LIST",
+    "data": {
+      "msgContent": {
+        "type": "interactive",
+        "interactive": {
+          "type": "list",
+          "header": {
+            "type": "text",
+            "text": "Asesorías ProMax CDMX"
+          },
+          "body": {
+            "text": "Te damos la bienvenida."
+          },
+          "footer": {
+            "text": "Recuérda que la preparación es lo más valioso"
+          },
+          "action": {
+            "button": "Informes",
+            "sections": [
+              {
+                "title": "Curso álbegra",
+                "rows": [
+                  {
+                    "id": 1725760500946,
+                    "title": "Álgebra 1",
+                    "description": ""
+                  },
+                  {
+                    "id": 1725760500947,
+                    "title": "Álgebra 2",
+                    "description": ""
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "keyword": [
+        "Álgebra 1",
+        "Álgebra 2"
+      ]
+    },
+    "type": "LIST",
+    "width": 318,
+    "height": 731,
+    "selected": false,
+    "positionAbsolute": {
+      "x": 546.7577637636682,
+      "y": -577.9264847779939
+    },
+    "dragging": false
+  },
+  {
+    "id": "1725760054780",
+    "position": {
+      "x": 1084.9333209858296,
+      "y": 61.308199482106005
+    },
+    "nodeType": "BUTTON",
+    "data": {
+      "msgContent": {
+        "type": "interactive",
+        "interactive": {
+          "type": "button",
+          "body": {
+            "text": "Esto es un botón"
+          },
+          "action": {
+            "buttons": []
+          }
+        }
+      },
+      "keyword": []
+    },
+    "type": "BUTTON",
+    "width": 271,
+    "height": 196,
+    "selected": false,
+    "positionAbsolute": {
+      "x": 1084.9333209858296,
+      "y": 61.308199482106005
+    },
+    "dragging": false
+  },
+  {
+    "id": "1725760090353",
+    "position": {
+      "x": 139.75521491112647,
+      "y": 145.62044565240893
+    },
+    "nodeType": "TEXT",
+    "data": {
+      "msgContent": {
+        "type": "text",
+        "text": {
+          "preview_url": true,
+          "body": "Hola. Bienvenid@. "
+        }
+      },
+      "keyword": [
+        "1) Cursos preparatoria",
+        "2) Cursos licenciatura",
+        "3) Asesorias"
+      ]
+    },
+    "type": "TEXT",
+    "width": 271,
+    "height": 332,
+    "selected": false,
+    "positionAbsolute": {
+      "x": 139.75521491112647,
+      "y": 145.62044565240893
+    },
+    "dragging": false
+  },
+  {
+    "id": "1725760194337",
+    "position": {
+      "x": 635.8320677729499,
+      "y": 182.5052111378854
+    },
+    "nodeType": "IMAGE",
+    "data": {
+      "msgContent": {
+        "type": "image",
+        "image": {
+          "link": "https://www.you_domain.com/media/c7AKmiZnnifzMW1PcamunNlrePWhNn1E.png",
+          "caption": "Hola! Soy Morry"
+        }
+      },
+      "keyword": [
+        "1) Informes",
+        "2) Croquetas"
+      ]
+    },
+    "type": "IMAGE",
+    "width": 318,
+    "height": 698,
+    "selected": false,
+    "positionAbsolute": {
+      "x": 635.8320677729499,
+      "y": 182.5052111378854
+    },
+    "dragging": false
+  }
+]

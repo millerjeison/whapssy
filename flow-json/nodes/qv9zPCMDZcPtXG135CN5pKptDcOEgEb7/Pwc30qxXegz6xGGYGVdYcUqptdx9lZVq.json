@@ -1,0 +1,27 @@
+[
+  {
+    "id": "1725737280382",
+    "position": {
+      "x": 300,
+      "y": 300
+    },
+    "nodeType": "TEXT",
+    "data": {
+      "msgContent": {
+        "type": "text",
+        "text": {
+          "preview_url": true,
+          "body": "hfghj"
+        }
+      },
+      "keyword": [
+        "fgjfgh"
+      ]
+    },
+    "type": "TEXT",
+    "width": 282,
+    "height": 252,
+    "selected": false,
+    "dragging": false
+  }
+]

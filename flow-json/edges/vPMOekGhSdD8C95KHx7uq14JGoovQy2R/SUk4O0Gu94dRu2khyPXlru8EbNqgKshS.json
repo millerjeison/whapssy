@@ -1,0 +1,16 @@
+[
+  {
+    "source": "1725760090353",
+    "sourceHandle": "1) Cursos preparatoria",
+    "target": "1725760028715",
+    "targetHandle": "1725760028715_target",
+    "id": "reactflow__edge-17257600903531) Cursos preparatoria-17257600287151725760028715_target"
+  },
+  {
+    "source": "1725760090353",
+    "sourceHandle": "2) Cursos licenciatura",
+    "target": "1725760194337",
+    "targetHandle": "1725760194337_target",
+    "id": "reactflow__edge-17257600903532) Cursos licenciatura-17257601943371725760194337_target"
+  }
+]
